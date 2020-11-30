@@ -30,7 +30,7 @@ def main():
     restart=input("Do you want to start again?\n").lower()
     if restart == "yes":
         main()
-    else:
+    else:    
         exit()
 #Where the code starts
 main ()
